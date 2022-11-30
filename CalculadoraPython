@@ -1,0 +1,3 @@
+tab = int(input("TABUADA DO: "))
+for count in range(10):
+    print("%d X %d = %d" % (tab, count+1, tab*(count+1)))
