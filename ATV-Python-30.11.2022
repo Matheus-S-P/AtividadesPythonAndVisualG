@@ -1,0 +1,19 @@
+#Le valores, pega o maior e o menor entre os digitados e printa na tela
+
+value = 1
+maior = 0
+menor = 0
+import os
+while value != 0:
+   value = int(input("Digite um numero: "))
+   os.system('cls')
+   if value > 0:
+        if menor == 0:
+            menor = value
+        if value > maior:
+            maior = value
+        elif value < menor:
+            menor = value
+print("O maior e: ", maior)
+print("O menor e: ", menor)
+  
