@@ -1,0 +1,36 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 06/12/2022
+Var
+   // Seção de Declarações das variáveis
+   idade: vetor[1..5] de inteiro
+   cont, menor, media, maior: inteiro
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   para cont de 1 ate 5 faca
+      escreva("Ecreva a",cont,"° idade: ")
+      leia(idade[cont])
+      menor <- idade[1]
+      se idade[cont] < menor entao
+         menor <- idade[cont]
+      senao
+         se idade[cont] > menor entao
+            maior <- idade[cont]
+         senao
+            se idade[cont] > maior entao
+               maior <- idade[cont]
+            fimse
+         fimse
+      fimse
+   fimpara
+   limpatela
+   media <- (maior + menor)\2
+   escreval("MENOR idade digitada: ",menor)
+   escreval("MAIOR idade digitada: ",maior)
+   escreval("")
+   escreval("A media das idades e: ",media)
+
+Fimalgoritmo
