@@ -1,0 +1,28 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi
+// Descrição   : Pega 5 numeros e diz quantos pares foram digitados
+// Autor(a)    : Matheus De Souza Pinto
+// Data atual  : 06/12/2022
+Var
+   // Seção de Declarações das variáveis
+   numAte5: vetor [1..5] de inteiro
+   cont, valor, valor2: inteiro
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   para cont de 1 ate 5 faca
+
+      escreva("Informe o ",cont,"º numero: ")
+      leia(numAte5[cont])
+
+      se (numAte5[cont]%2 = 0) entao
+         valor <- valor + 1
+
+      fimse
+   fimpara
+   escreval("")
+   escreval("Foram digitados", valor," numeros pares, e",5 - valor," numeros impares")
+
+
+
+Fimalgoritmo
