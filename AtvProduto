@@ -1,0 +1,60 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 06/12/2022
+
+//Faça um código que leia: o nome de um produto, seu preço,
+//e se tem em estoque (tipo: lógico).Armazene em 03 vetores diferentes.
+//Posteriormente peça ao usuário para buscar o nome de um produto.
+//O algoritmo deve retornar seu preço e se tem em estoque.
+Var
+// Seção de Declarações das variáveis
+
+prod: vetor[1..5] de caractere
+preço: vetor[1..5] de real
+est: vetor[1..5] de inteiro
+cont: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+prod[1] <- "Espada Longa refinada(ITEM RARO)"
+prod[2] <- "Adaga de adamantium(ITEM LENDARIO)"
+prod[3] <- "Armadura encantada(ITEM INCOMUM)"
+prod[4] <- "Espada curta(ITEM COMUM)"
+prod[5] <- "Alabarda encantada(ITEM INCOMUM)"
+
+preço[1] <- 500
+preço[2] <- 3000
+preço[3] <- 250
+preço[4] <- 50
+preço[5] <- 150
+
+est[1] <- 100
+est[2] <- 10
+est[3] <- 300
+est[4] <- 1000
+est[5] <- 200
+
+escreval("Ola viajante, aqui temos 5 itens de alta qualidade")
+escreval("prontos para serem comprador e utilizados por voce")
+escreval("em suas jornadas")
+escreval("")
+escreval("           /\                                                 /\           ")
+ESCREVAL(" _         )( ______________________   ______________________ )(         _ ")
+escreval("(_)///////(**)______________________> <______________________(**)\\\\\\\(_)")
+escreval("           )(   Espada Longa refinada(ITEM RARO)---- 500.PO   )(           ")
+escreval("           \/  Adaga de adamantium(ITEM LENDARIO)-- 3000.PO   \/           ")
+escreval("                Armadura encantada(ITEM INCOMUM)---- 250.PO                ")
+escreval("                 Espada curta(ITEM COMUM)------------ 50.PO                ")                  /
+escreval("           /\   Alabarda encantada(ITEM INCOMUM)---- 150.PO   /\           ")
+ESCREVAL(" _         )( ______________________ X ______________________ )(         _ ")
+escreval("(_)///////(**)______________________> <______________________(**)\\\\\\\(_)")
+escreval("           )(                                                 )(           ")
+escreval("           \/                                                 \/           ")
+
+
+
+
+Fimalgoritmo
