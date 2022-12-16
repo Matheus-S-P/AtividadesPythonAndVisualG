@@ -1,0 +1,30 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Dia de folga
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 28/11/2022
+Var
+// Seção de Declarações das variáveis 
+Nome: caractere
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc..
+escreval("primeiramente digite seu nome: ")
+leia(Nome)
+limpatela
+Escreval("Ola ", Nome ,", uma nova semana esta se iniciando.")
+escreval("Voce acorda em plena manha de segunda, porem, para sua felicidade,")
+escreval("hoje e feriado nacional e tambem seu dia de folga.")
+escreval("Para começarmos, escolha das uma tres das opções: ")
+escreval("")
+escreval("|------------------------------------|")
+escreval("|   1-Ficar em casa e pedir lanche   |")
+escreval("|                OU                  |")
+escreval("| 2-Ir ao cinema e escolher um filme |")
+escreval("|                OU                  |")
+ESCREVAL("|   3-Ir ao estádio ver um jogo      |")
+escreval("|------------------------------------|")
+escreval("")
+
+Fimalgoritmo
