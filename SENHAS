@@ -1,0 +1,39 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e L�gica de Programa��o]
+// Professor   : Antonio Carlos Nicolodi
+// Descri��o   : Aqui voc� descreve o que o programa faz! (fun��o)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 28/11/2022
+Var
+   // Se��o de Declara��es das vari�veis
+   senha,tent: inteiro
+
+Inicio
+   // Se��o de Comandos, procedimento, fun��es, operadores, etc...
+   senha <- 12345
+
+
+
+   escreval("Digite a senha para mais informa��es")
+   escreva("Senha :")
+   leia(senha)
+   limpatela
+
+      enquanto senha <> 12345  faca
+
+            escreval(" SENHA INVALIDA!!")
+            escreval("TENTE NOVAMENTE!!!")
+            escreval("")
+            escreva("Senha: ")
+            leia(senha)
+            limpatela
+
+   fimenquanto
+
+   ESCREVAL("ACESSO LIBERADO")
+
+
+
+
+
+Fimalgoritmo
