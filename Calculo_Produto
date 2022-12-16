@@ -1,0 +1,90 @@
+Algoritmo "semnome"
+//
+//
+//
+//
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Matheus de Souza Pinto
+// Data atual  : 10/11/2022
+Var
+// Seção de Declarações das variáveis
+
+cod, codUm, codDois, codTres: real
+nome: caractere
+precoC, precoM, precoT, Porcent, preco: real
+desc: real
+
+Inicio
+codUm <- 801
+codDois <- 802
+codTres <- 803
+precoC <-  250
+precoM <- 150
+precoT <- 200
+Porcent <-  25
+
+escreval("escreva seu nome para melhor atendimento:")
+leia(nome)
+limpatela
+
+escreval("Ola " , nome , " oque deseja comprar?(OBS:digite o codigo do produto)")
+escreval("801-Calca (250)")
+escreval("802-Moletom  (150)")
+escreval("803-Tenis (200)")
+leia(cod)
+
+enquanto (cod < 801) ou (cod > 803) faça
+escreval("Este codigo nao existe, escreva um codigo valido!")
+escreval("801-Calca (250)")
+escreval("802-Moletom  (150)")
+escreval("803-Tenis (200)")
+leia(cod)
+
+fimenquanto
+limpatela
+
+se cod = codUm entao
+escreval("este produto custa 250 reais, e sera feito um desconto ")
+escreval("de 25%, pois voce e muito bonito")
+
+desc <- precoC * Porcent / 100
+
+escreval(" o valor e: ", precoC - desc )
+senao fimse
+se cod = codDois entao
+ escreval("este produto custa 150 reais, e sera feito um desconto ")
+ escreval("de 25%, pois voce e muito bonito")
+
+desc <- precoM * Porcent / 100
+
+escreval(" o valor e: ", precoM - desc )
+
+senao
+
+fimse
+
+se cod = codTres entao
+ escreval("este produto custa 200 reais, e sera feito um desconto ")
+escreval("de 25%, pois voce e muito bonito")
+
+desc <- precoT * Porcent / 100
+
+escreval(" o valor e: ", precoT - desc )
+
+fimse
+fimse
+fimalgoritmo
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
