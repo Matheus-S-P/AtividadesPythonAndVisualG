@@ -1,0 +1,66 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e L�gica de Programa��o] 
+// Professor   : Antonio Carlos Nicolodi 
+// 
+//  
+// Descri��o   : Aqui voc� descreve o que o programa faz! (fun��o)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 08/11/2022
+Var
+// Se��o de Declara��es das vari�veis 
+a: inteiro
+b: inteiro
+c: inteiro
+d: inteiro
+
+Inicio
+// Se��o de Comandos, procedimento, fun��es, operadores, etc... 
+escreval("Fa�a sua rotina matinal")
+escreval("deseja acordar? 1sim/2nao")
+leia(a)
+enquanto (a > 2) ou (a < 1) faca
+escreval("deseja acordar? 1sim/2nao")
+leia(a)
+fimenquanto
+ escolha a
+      caso 1
+        escreval("Voce levantou da sua cama. Deseja tomar seu cafe da manha? 1sim/2nao")
+      leia(b)
+      caso 2
+    escreval("Voce dormiu alem da conta e nao levantou para tomar cafe!")
+FIMESCOLHA
+  escolha b
+     caso 1
+       escreval("Voce foi tomar um cafe. Oque deseja comer?")
+       escreval("1- pao de queijo e cafe")
+       escreval("2-misto quente e suco")
+       escreval("3-saladinha e vitamina")
+       escreval("4-Comida suspeita e estranha em cima da geladeira")
+        leia(c)
+     caso 2
+     escreval("voce passou fome e morreu")
+FIMESCOLHA
+   escolha c
+     caso 1
+       escreval("Voce esta bem alimentado.Seu horario de trabalho se aproxima, deseja ir trabalhar? 1sim/2nao")
+       leia(d)
+     caso 2
+       escreval("Voce esta bem alimentado.Seu horario de trabalho se aproxima, deseja ir trabalhar? 1sim/2nao")
+       leia(d)
+     caso 3
+       escreval("Voce esta bem alimentado.Seu horario de trabalho se aproxima, deseja ir trabalhar? 1sim/2nao")
+       leia(d)
+     caso 4
+       escreval("Voce foi burro o bastate para comer esse tro�o")
+       escreval("sua cabeca come�a a girar e voce cai desmaiado batendo a testa na quina da mesa")
+       escreval("VOCE MORREU")
+FIMESCOLHA
+   escolha d
+     caso 1
+       escreval("voce se arruma e vai trabalhar. PARABENS, VOCE COMPLETOU SUA ROTINA MATINAL")
+     caso 2
+       escreval("voce decide tirar um dia de folga e passa a tarde toda vendo serie. PARABENS, VOCE E UM PREGUI�OSO")
+FIMESCOLHA
+
+
+fimalgoritmo
